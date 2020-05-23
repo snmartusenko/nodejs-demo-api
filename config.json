@@ -1,0 +1,8 @@
+{
+  "JWTSecret": "nrtohvWEyo4545gergv",
+  "JWTExpiresIn": 86400,
+  "CryptPass": ";W`@zgdffgXG?*E|n^vOa+lh$",
+
+  "MongoDBIP": "127.0.0.1",
+  "MongoDBName": "employees-demo"
+}
