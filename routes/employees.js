@@ -3,7 +3,7 @@ const router = express.Router();
 const EmployeController = require('../controllers/EmployeController');
 const verifyToken = require('../auth/VerifyToken');
 
-// router.all('*', verifyToken);
+router.all('*', verifyToken);
 
 router.post('/create', EmployeController.create);
 router.get('/', EmployeController.getAll);
